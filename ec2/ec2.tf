@@ -60,7 +60,7 @@ resource "aws_iam_instance_profile" "instance_profile" {
 
 
 
-resource "aws_instance" "web_server" {
+resource "aws_instance" "web_server1" {
   ami                    = "ami-0b0dcb5067f052a63"
   instance_type          = "t3.small"
   key_name               = var.key_pair_name  
